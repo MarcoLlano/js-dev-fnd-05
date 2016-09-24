@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "This is my calculator",
+  "main": "Calculator.js",
+  "scripts": {
+    "test": "jasmine-node --verbose ./spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoLlano/js-dev-fnd-05.git"
+  },
+  "author": "Marco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoLlano/js-dev-fnd-05/issues"
+  },
+  "homepage": "https://github.com/MarcoLlano/js-dev-fnd-05#readme"
+}
