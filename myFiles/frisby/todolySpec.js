@@ -44,7 +44,11 @@ frisby
 
 frisby
 	.create('Should not create a project with a required value')
-	.post('https://todo.ly/api/projects.json', {Content: " "}, { json: true })
+	.post('https://todo.ly/api/projects.json', 
+		{
+			Content: " ",
+			Icon: 4
+		}, { json: true })
 	.expectJSON({Content: " " })
 	.expectStatus(200)
 .toss();
